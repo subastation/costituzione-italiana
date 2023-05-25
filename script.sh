@@ -10,7 +10,7 @@ outdir=articoli/
 for i in $(grep --color=never -E "^Art\. [0-9]+\..*$" $infile ); do
     filename_dirty=$(echo $i); 
     filename_clean=$(echo $filename_dirty | sed 's/[. ]//g'); 
-    grep -A 100 "$i" "$infile" | sed -n "/$i/, /Art\./p" > "$outdir/$filename_clean.txt"; 
+    grep -F -A 100 "$i" "$infile" | sed -n "/$i/, /Art\./p" > "$outdir/$filename_clean.txt"; 
 done
 
 
