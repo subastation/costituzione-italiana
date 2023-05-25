@@ -1,0 +1,17 @@
+Le intestazioni di sezione devono appartenere allo articolo successivo o influenzare i files, non essere alla ultima riga dello articolo precedente n articoli/Art1.txt:SEZIONE I. – Ordinamento giurisdizionale.
+
+    $ ~/costituzione_open2 grep -n SEZIONE articoli/*
+    articoli/Art1.txt:65:SEZIONE I. – Ordinamento giurisdizionale.
+    articoli/Art1.txt:124:SEZIONE II. – Norme sulla giurisdizione.
+    articoli/Art10.txt:26:SEZIONE I. – Ordinamento giurisdizionale.
+    articoli/Art100.txt:16:SEZIONE I. – Ordinamento giurisdizionale.
+    articoli/Art11.txt:17:SEZIONE II. – Norme sulla giurisdizione.
+    articoli/Art110.txt:6:SEZIONE II. – Norme sulla giurisdizione.
+    articoli/Art133.txt:14:SEZIONE I. – La Corte costituzionale.
+    articoli/Art137.txt:8:SEZIONE II. – Revisione della Costituzione.
+    articoli/Art5.txt:36:SEZIONE I. – Le Camere.
+    articoli/Art54.txt:15:SEZIONE I. – Le Camere.
+    articoli/Art69.txt:5:SEZIONE II. – La formazione delle leggi [117].
+    articoli/Art91.txt:14:SEZIONE I. – Il Consiglio dei ministri.
+    articoli/Art96-1-.txt:13:SEZIONE II. – La Pubblica Amministrazione.
+    articoli/Art98.txt:16:SEZIONE III. – Gli organi ausiliari.
